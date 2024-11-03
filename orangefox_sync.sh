@@ -84,7 +84,7 @@ do_fox_81() {
 	TWRP_BRANCH="twrp-8.1";
 	DEVICE_BRANCH="android-8.1";
 	test_build_device="kenzo";
-	MIN_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git";
+	MIN_MANIFEST="https://github.com/wwaaafa/platform_manifest_twrp_omni.git";
 	[ -z "$MANIFEST_DIR" ] && MANIFEST_DIR="$BASE_DIR/$FOX_DEF_BRANCH";
 }
 
