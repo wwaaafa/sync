@@ -95,7 +95,7 @@ do_fox_71() {
 	TWRP_BRANCH="twrp-7.1";
 	DEVICE_BRANCH="android-7.1";
 	test_build_device="hermes";
-	MIN_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git";
+	MIN_MANIFEST="https://github.com/wwaaafa/platform_manifest_twrp_omni.git";
 	[ -z "$MANIFEST_DIR" ] && MANIFEST_DIR="$BASE_DIR/$FOX_DEF_BRANCH";
 }
 
