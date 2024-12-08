@@ -344,9 +344,9 @@ local BRANCH=$FOX_BRANCH;
    [ "$BASE_VER" -lt 10 ] && BRANCH="master"; # less than fox_10.0 use the "master" branch
    
    if [ "$USE_SSH" = "0" ]; then
-      URL="https://gitlab.com/OrangeFox/vendor/recovery.git";
+      URL="https://github.com/wwaaafa/OrangeFox_vendor_recovery.git";
    else
-      URL="git@gitlab.com:OrangeFox/vendor/recovery.git";
+      URL="https://github.com/wwaaafa/OrangeFox_vendor_recovery.git";
    fi
 
    echo "-- Preparing for cloning the OrangeFox vendor tree ...";
